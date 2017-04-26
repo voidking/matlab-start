@@ -1,0 +1,10 @@
+t=0:pi/10:2*pi;
+x=t;
+y=sin(t);
+z=cos(t);
+plot3(x,y,z,'r:p');
+grid on;
+xlabel('X');
+ylabel('Y');
+zlabel('Z');
+title('sine and cosine');
